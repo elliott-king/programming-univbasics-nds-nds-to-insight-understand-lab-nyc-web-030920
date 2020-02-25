@@ -10,6 +10,5 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  each { |e|  }
-  directors_database[0][:movies].each { |movie| puts movie[:title] }
+  directors_database[0][:movies].each{ |movie| puts movie[:title] }
 end
